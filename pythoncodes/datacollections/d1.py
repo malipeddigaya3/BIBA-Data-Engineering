@@ -1,0 +1,10 @@
+orders=['1,2023-12-13,112,CLOSED',
+        '2,2023-11-23,202,COMPLETE',
+        '3,2022-11-23,202,PENDING',
+        '4,2023-11-23,242,COMPLETE',
+        '5,2023-11-23,202,CLOSED',
+        '6,2023-11-23,202,COMPLETE',
+        '7,2023-11-23,208,PENDING'
+        ]
+print(orders[0])
+print(orders[0].split(","))
